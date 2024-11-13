@@ -6,6 +6,11 @@
 ## Setup
 ```
 docker-compose up
+```
+
+Create .env file by copying .env.example
+
+```
 docker exec -it laravel_app bash
 composer i
 php artisan migrate
